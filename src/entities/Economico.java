@@ -1,5 +1,12 @@
 package entities;
 
-public class Economico {
-
+public class Economico extends Bilhete {
+	
+	public Economico(Double valor) {
+		super(valor);
+	}
+	
+	public void hello() {
+		System.out.println("Bilhete Econômico...");
+	}
 }
